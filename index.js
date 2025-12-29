@@ -157,6 +157,38 @@ body {
 <div class="footer">
   © 2025 RW Bot Network
 </div>
+<!-- BEDAVA KOD & BDFD BUTONU -->
+<div style="
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+">
+    <a href="https://discord.gg/99xduqgEYA" target="_blank"
+       style="
+        display: inline-block;
+        padding: 14px 22px;
+        background: linear-gradient(135deg, #5865F2, #3ba55d);
+        color: #ffffff;
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(88,101,242,0.6);
+        animation: pulse 1.6s infinite;
+       ">
+        🚀 Bedava Kod & BDFD Komutları Al
+    </a>
+</div>
+
+<style>
+@keyframes pulse {
+    0%   { transform: scale(1);   box-shadow: 0 0 15px rgba(88,101,242,0.6); }
+    50%  { transform: scale(1.08); box-shadow: 0 0 30px rgba(88,101,242,0.9); }
+    100% { transform: scale(1);   box-shadow: 0 0 15px rgba(88,101,242,0.6); }
+}
+</style>
 
 </body>
 </html>
