@@ -53,15 +53,16 @@ app.get("/", (req, res) => {
             <h2>RW"bot</h2>
             <p>Prefix: !</p>
             <p>Sohbet • Moderasyon • Eğlence<br>Anti spam / link koruması</p>
-            <button onclick="window.open('https://discord.com/oauth2/authorize?client_id=BOT1_CLIENT_ID&scope=bot&permissions=8')">
+            <button onclick="window.open('https://discord.com/oauth2/authorize?client_id=1454804540334280788&permissions=8&integration_type=0&scope=bot')">
               Sunucuma Ekle
             </button>
           </div>
 
           <div class="card">
             <h2>R"W RolePlay</h2>
+              <p>Prefix: R!</p>
             <p>Sunucuda RP sistemi<br>Chat koruma • Spam önleme</p>
-            <button onclick="window.open('https://discord.com/oauth2/authorize?client_id=BOT2_CLIENT_ID&scope=bot&permissions=8')">
+            <button onclick="window.open('https://discord.com/oauth2/authorize?client_id=1454550694504960081&permissions=8&integration_type=0&scope=bot')">
               Sunucuma Ekle
             </button>
           </div>
