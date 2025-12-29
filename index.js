@@ -8,106 +8,112 @@ app.get("/", (req, res) => {
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8" />
 <title>RW Bot Ağı</title>
 <style>
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(135deg, #0f0f0f, #111827);
-  color: #fff;
-}
-.header {
-  background: #111;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 0 20px #00ffd5;
-}
-.header a {
-  color: #00ffd5;
-  text-decoration: none;
-  font-weight: bold;
-}
-.container {
-  padding: 40px;
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.card {
-  background: #1c1c1c;
-  width: 320px;
-  border-radius: 15px;
-  padding: 25px;
-  box-shadow: 0 0 25px #00ffd533;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 0 40px #00ffd5;
-}
-.card h2 {
-  margin-top: 0;
-  color: #00ffd5;
-}
-.prefix {
-  background: #00ffd5;
-  color: #000;
-  display: inline-block;
-  padding: 5px 10px;
-  border-radius: 8px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.btn {
-  margin-top: 15px;
-  display: block;
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  background: #00ffd5;
-  color: #000;
-}
-.btn:hover {
-  background: #00c9a7;
-}
-.footer {
-  text-align: center;
-  padding: 20px;
-  color: #aaa;
-  font-size: 14px;
-}
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #111827);
+    color: #fff;
+  }
+  .header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px #00ffd5;
+  }
+  .header a {
+    color: #00ffd5;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container {
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    background: #1c1c1c;
+    width: 320px;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 0 25px #00ffd533;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 40px #00ffd5;
+  }
+  .card h2 {
+    margin-top: 0;
+    color: #00ffd5;
+  }
+  .prefix {
+    background: #00ffd5;
+    color: #000;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .btn {
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #00ffd5;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+  }
+  .btn:hover {
+    background: #00c9a7;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+    font-size: 14px;
+  }
+  .extra-buttons {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .extra-buttons a {
+    margin: 0 10px;
+  }
 </style>
 </head>
 <body>
 
 <div class="header">
-  🎁 <b>Sunucumuza Katıl – Botunu Ekleyelim:</b>
-  <a href="https://discord.gg/FPXyn9S38U" target="_blank">
-    discord.gg/FPXyn9S38U
-  </a>
+  🎉 <b>RW Bot Ağına Hoş Geldiniz</b>
 </div>
 
 <div class="container">
 
   <!-- BOT 1 -->
   <div class="card">
-    <h2>RW Bot</h2>
+    <h2>RW"bot</h2>
     <div class="prefix">Prefix: !</div>
     <p>
-      Moderasyon • Eğlence • Sohbet<br>
+      Moderasyon • Eğlence • Sohbet<br />
       Güçlü koruma sistemleri
     </p>
-    <button class="btn"
-      onclick="window.open('https://discord.com/oauth2/authorize?client_id=1454804540334280788&permissions=8&integration_type=0&scope=bot')">
-      Sunucuma Ekle
-    </button>
+    <a href="https://discord.com/oauth2/authorize?client_id=1454804540334280788&permissions=8&integration_type=0&scope=bot" target="_blank" class="btn">Sunucuma Ekle</a>
   </div>
 
   <!-- BOT 2 -->
@@ -115,87 +121,36 @@ body {
     <h2>RW RolePlay</h2>
     <div class="prefix">Prefix: ?</div>
     <p>
-      Roleplay sunucuları için özel bot<br>
+      Roleplay sunucuları için özel bot<br />
       RP komutları & düzen sistemi
     </p>
-    <button class="btn"
-      onclick="window.open('https://discord.com/oauth2/authorize?client_id=1454550694504960081&permissions=8&integration_type=0&scope=bot')">
-      Sunucuma Ekle
-    </button>
+    <a href="https://discord.com/oauth2/authorize?client_id=1454550694504960081&permissions=8&integration_type=0&scope=bot" target="_blank" class="btn">Sunucuma Ekle</a>
   </div>
 
-  <!-- BOT 3 -->
-  <div class="card">
-    <h2>@RoWo</h2>
-    <div class="prefix">Prefix: R</div>
-    <p>
-      OWO benzeri eğlence & oyun botu<br>
-      Kasa, item, savaş sistemi
-    </p>
-    <button class="btn"
-      onclick="window.open('https://discord.com/oauth2/authorize?client_id=1436700314555383920&scope=bot%20applications.commands&permissions=2146958847')">
-      Sunucuma Ekle
-    </button>
-  </div>
+</div>
 
-  <!-- BOT 4 -->
-  <div class="card">
-    <h2>@ErensiBot TR 🇹🇷</h2>
-    <div class="prefix">Prefix: E?</div>
-    <p>
-      Moderasyon • Eğlence • Sohbet<br>
-      ErensiBot tarzı gelişmiş yapı
-    </p>
-    <button class="btn"
-      onclick="window.open('https://discordapp.com/oauth2/authorize?client_id=1446616920521576492&scope=bot&permissions=2146958847')">
-      Sunucuma Ekle
-    </button>
-  </div>
-
+<!-- EKSTRA BUTONLAR -->
+<div class="extra-buttons">
+  <a href="https://github.com/RWwoxy" target="_blank" class="btn" style="background: linear-gradient(135deg, #24292e, #6cc644); color: white;">
+    📂 Bedava Kod & BDFD Komutları Al
+  </a>
+  <a href="https://discord.gg/sEpRuhcaDP" target="_blank" class="btn" style="background: linear-gradient(135deg, #5865F2, #3ba55d); color: white;">
+    💬 Discord Sunucumuza Katıl & Botunu Ekleyelim
+  </a>
+  <a href="https://discord.gg/ves9nWtD6b" target="_blank" class="btn" style="background: linear-gradient(135deg, #ff5555, #ff9900); color: white;">
+    🎮 Bedava Hile / Spoofer / Oyun
+  </a>
 </div>
 
 <div class="footer">
   © 2025 RW Bot Network
 </div>
-<!-- BEDAVA KOD & BDFD BUTONU -->
-<div style="
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 9999;
-">
-    <a href="https://discord.gg/99xduqgEYA" target="_blank"
-       style="
-        display: inline-block;
-        padding: 14px 22px;
-        background: linear-gradient(135deg, #5865F2, #3ba55d);
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        text-decoration: none;
-        border-radius: 12px;
-        box-shadow: 0 0 15px rgba(88,101,242,0.6);
-        animation: pulse 1.6s infinite;
-       ">
-        🚀 Bedava Kod & BDFD Komutları Al
-    </a>
-</div>
-
-<style>
-@keyframes pulse {
-    0%   { transform: scale(1);   box-shadow: 0 0 15px rgba(88,101,242,0.6); }
-    50%  { transform: scale(1.08); box-shadow: 0 0 30px rgba(88,101,242,0.9); }
-    100% { transform: scale(1);   box-shadow: 0 0 15px rgba(88,101,242,0.6); }
-}
-</style>
 
 </body>
 </html>
-`);
+  `);
 });
 
 app.listen(PORT, () => {
   console.log("Listening on port " + PORT);
 });
-
