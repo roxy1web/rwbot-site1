@@ -88,20 +88,49 @@ body {
 <body>
 
 <div class="header">
-  🎁 <b>Bedava Kodlar & BDFD Komutları İçin:</b>
-  <a href="https://discord.gg/99xduqgEYA" target="_blank">
-    Discord Sunucumuza Katıl
+  🎁 <b>Sunucumuza Katıl – Botunu Ekleyelim:</b>
+  <a href="https://discord.gg/FPXyn9S38U" target="_blank">
+    discord.gg/FPXyn9S38U
   </a>
 </div>
 
 <div class="container">
 
+  <!-- BOT 1 -->
+  <div class="card">
+    <h2>RW Bot</h2>
+    <div class="prefix">Prefix: !</div>
+    <p>
+      Moderasyon • Eğlence • Sohbet<br>
+      Güçlü koruma sistemleri
+    </p>
+    <button class="btn"
+      onclick="window.open('https://discord.com/oauth2/authorize?client_id=1454804540334280788&permissions=8&integration_type=0&scope=bot')">
+      Sunucuma Ekle
+    </button>
+  </div>
+
+  <!-- BOT 2 -->
+  <div class="card">
+    <h2>RW RolePlay</h2>
+    <div class="prefix">Prefix: ?</div>
+    <p>
+      Roleplay sunucuları için özel bot<br>
+      RP komutları & düzen sistemi
+    </p>
+    <button class="btn"
+      onclick="window.open('https://discord.com/oauth2/authorize?client_id=1454550694504960081&permissions=8&integration_type=0&scope=bot')">
+      Sunucuma Ekle
+    </button>
+  </div>
+
+  <!-- BOT 3 -->
   <div class="card">
     <h2>@RoWo</h2>
     <div class="prefix">Prefix: R</div>
     <p>
-      OWO bot benzeri eğlence ve oyun botu.<br>
-      Kasa, savaş, item, eğlence ve daha fazlası.
+      OWO benzeri eğlence & oyun botu<br>
+      Kasa, item, savaş sistemi
     </p>
     <button class="btn"
       onclick="window.open('https://discord.com/oauth2/authorize?client_id=1436700314555383920&scope=bot%20applications.commands&permissions=2146958847')">
@@ -109,12 +138,13 @@ body {
     </button>
   </div>
 
+  <!-- BOT 4 -->
   <div class="card">
     <h2>@ErensiBot TR 🇹🇷</h2>
     <div class="prefix">Prefix: E?</div>
     <p>
-      Moderasyon • Eğlence • Sohbet botu.<br>
-      ErensiBot tarzı gelişmiş özellikler.
+      Moderasyon • Eğlence • Sohbet<br>
+      ErensiBot tarzı gelişmiş yapı
     </p>
     <button class="btn"
       onclick="window.open('https://discordapp.com/oauth2/authorize?client_id=1446616920521576492&scope=bot&permissions=2146958847')">
@@ -136,3 +166,4 @@ body {
 app.listen(PORT, () => {
   console.log("Listening on port " + PORT);
 });
+
