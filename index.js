@@ -146,20 +146,19 @@ function toggle(id) {
 `);
 });
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log("RW Bot sitesi çalışıyor");
-});
-
+const express = require("express");
+const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static("public")); // varsa
+app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   res.send("RW Bot Sitesi Çalışıyor 🚀");
 });
 
 app.listen(PORT, () => {
-  console.log("Server running on port " + PORT);
+  console.log("Listening on port " + PORT);
 });
+
 
