@@ -132,7 +132,7 @@ function toggle(id) {
 <div class="bot">
   <h2>💬 Discord Sunucumuz</h2>
   <p>
-    Sunucumuza katılanlara <b>ücretsiz komutlar</b>, özel özellikler ve destek!
+    Sunucumuza katılanlara <b>botlarını sitemize ekliyor</b>, özel özellikler ve destek sağlıyoruz
   </p>
 
   <a href="https://discord.gg/zFyVu5uq3W" target="_blank">
