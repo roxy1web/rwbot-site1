@@ -113,7 +113,9 @@ app.get("/", (req, res) => {
       Moderasyon • Eğlence • Sohbet<br />
       Güçlü koruma sistemleri
     </p>
-    <a href="https://discord.com/oauth2/authorize?client_id=1454804540334280788&permissions=8&integration_type=0&scope=bot" target="_blank" class="btn">Sunucuma Ekle</a>
+    <a href="https://discord.com/oauth2/authorize?client_id=1454804540334280788&permissions=8&integration_type=0&scope=bot" target="_blank" class="btn">
+      Sunucuma Ekle
+    </a>
   </div>
 
   <!-- BOT 2 -->
@@ -124,7 +126,22 @@ app.get("/", (req, res) => {
       Roleplay sunucuları için özel bot<br />
       RP komutları & düzen sistemi
     </p>
-    <a href="https://discord.com/oauth2/authorize?client_id=1454550694504960081&permissions=8&integration_type=0&scope=bot" target="_blank" class="btn">Sunucuma Ekle</a>
+    <a href="https://discord.com/oauth2/authorize?client_id=1454550694504960081&permissions=8&integration_type=0&scope=bot" target="_blank" class="btn">
+      Sunucuma Ekle
+    </a>
+  </div>
+
+  <!-- BOT 3 -->
+  <div class="card">
+    <h2>RW SMS Bot</h2>
+    <div class="prefix">Prefix: $</div>
+    <p>
+      SMS Bomber • SMS Saldırısı<br />
+      Hızlı & güçlü sistem
+    </p>
+    <a href="https://discord.com/oauth2/authorize?client_id=1455961849567772785&permissions=8&integration_type=0&scope=bot" target="_blank" class="btn">
+      Sunucuma Ekle
+    </a>
   </div>
 
 </div>
