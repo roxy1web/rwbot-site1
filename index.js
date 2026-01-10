@@ -151,10 +151,10 @@ app.get("/", (req, res) => {
   <a href="https://github.com/RWwoxy" target="_blank" class="btn" style="background: linear-gradient(135deg, #24292e, #6cc644); color: white;">
     📂 Bedava Kod & BDFD Komutları Al
   </a>
-  <a href="https://discord.gg/sEpRuhcaDP" target="_blank" class="btn" style="background: linear-gradient(135deg, #5865F2, #3ba55d); color: white;">
+  <a href="https://discord.gg/SXETYkhCHx" target="_blank" class="btn" style="background: linear-gradient(135deg, #5865F2, #3ba55d); color: white;">
     💬 Discord Sunucumuza Katıl & Botunu Ekleyelim
   </a>
-  <a href="https://discord.gg/ves9nWtD6b" target="_blank" class="btn" style="background: linear-gradient(135deg, #ff5555, #ff9900); color: white;">
+  <a href="https://discord.gg/SXETYkhCHx" target="_blank" class="btn" style="background: linear-gradient(135deg, #ff5555, #ff9900); color: white;">
     🎮 Bedava Hile / Spoofer / Oyun
   </a>
 </div>
